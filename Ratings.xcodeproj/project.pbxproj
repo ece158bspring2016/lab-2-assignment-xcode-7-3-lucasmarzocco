@@ -62,10 +62,10 @@
 		013577151CBEF9870093D829 /* Ratings */ = {
 			isa = PBXGroup;
 			children = (
-				014E18851CBF01AC00F74887 /* PlayersViewController.swift */,
 				013577161CBEF9870093D829 /* AppDelegate.swift */,
 				013577181CBEF9870093D829 /* ViewController.swift */,
 				0135771A1CBEF9870093D829 /* Main.storyboard */,
+				014E18851CBF01AC00F74887 /* PlayersViewController.swift */,
 				0165A9A11CBF823D00E2AAC3 /* PlayerCell.swift */,
 				0135772A1CBEFE330093D829 /* Players.swift */,
 				0135772C1CBEFE9A0093D829 /* SampleData.swift */,
