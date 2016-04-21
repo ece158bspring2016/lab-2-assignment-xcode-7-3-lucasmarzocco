@@ -41,5 +41,23 @@ class PlayersViewController: UITableViewController {
         return cell
     }
     
+    @IBAction func cancelToPlayersViewController(segue: UIStoryboardSegue) {
+        
+    }
+    
+    @IBAction func savePlayerDetail(segue: UIStoryboardSegue) {
+        
+        if let PlayerDetailsViewController = segue.sourceViewController as? PlayerDetailsViewController {
+            
+            if let player = PlayerDetailsViewController.player {
+                players.append(player)
+                
+                let indexPath = NSIndexPath(forRow: players.count - 1, inSection:0)
+                tableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
+            }
+        }
+        
+    }
+    
     
 }
